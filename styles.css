@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#portada {
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-size: cover;
+    background-position: center -420px;
+    background-image: url(img/ceviche\ de\ megalodon.png);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+#portada::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #000, rgba(163, 162, 162, 0.4) 40%); 
+}
+
+
+#informacion{   
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    border: solid;
+}
+
+h1{
+    box-sizing: border-box;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    font-size: 4.5em;
+    background-color: #0e5b6c44;
+    font-family: sans-serif;
+    border-left: solid 10px #fff;
+    border-bottom: solid 10px #888;
+    border-right: solid 10px #fff;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    top: 290px;
+    z-index: 2;
+    text-shadow: 5px 5px 20px #566366;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.texto{
+    box-sizing: border-box;
+    text-align: center;
+    text-align: justify;
+    padding: 10px 50px;
+    font-size: 2em;
+    font-family: sans-serif;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border: solid #333;
+}
+
+a{
+    color: rgb(182, 182, 255);
+}
